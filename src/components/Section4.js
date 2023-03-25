@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section2.css';
+import './Homescreen.css';
 import image3 from '../assets/images/kid.jpg';
 function EnjoyOnTV () {
     return(
@@ -10,12 +10,14 @@ function EnjoyOnTV () {
             color: "white", 
             display: "flex",
             alignItems:"center",
+            objectFit:"contain",
             justifyContent:"space-between",
             textAlign:"left", 
+            position: "relative",
             paddingInlineStart:"64px",
             paddingTop:"48px",
             paddingBottom:"56px",  
-            paddingLeft:"200px",
+            paddingLeft:"100px",
             paddingRight:"150px"
             }}>
             

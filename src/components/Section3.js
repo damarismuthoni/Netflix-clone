@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section2.css';
+import './Homescreen.css';
 import image2 from '../assets/images/austronant.jpg';
 function WatchEverywhere () {
     return(
@@ -9,14 +9,16 @@ function WatchEverywhere () {
             style={{ backgroundColor: "black", 
             color: "white", 
             display: "flex",
+            objectFit:"contain",
             alignItems:"center",
             justifyContent:"space-between",
             textAlign:"left", 
+            position: "relative",
             paddingInlineStart:"64px",
             paddingTop:"48px",
             paddingBottom:"56px",  
-            paddingLeft:"250px",
-            paddingRight:"150px"
+            paddingLeft:"100px",
+            paddingRight:"100px"
             }}>
 
         <img src={image2} className="astr"

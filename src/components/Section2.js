@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section2.css';
+import './Homescreen.css';
 import image1 from '../assets/images/television.jpg';
 function EnjoyOnTV () {
     return(
@@ -11,12 +11,14 @@ function EnjoyOnTV () {
             display: "flex",
             alignItems:"center",
             justifyContent:"space-between",
-            textAlign:"left", 
+            textAlign:"left",
+            objectFit:"contain", 
+            position: "relative",
             paddingInlineStart:"64px",
             paddingTop:"48px",
             paddingBottom:"56px",  
-            paddingLeft:"200px",
-            paddingRight:"150px"
+            paddingLeft:"100px",
+            paddingRight:"180px"
             }}>
             
         <div style={{flex: "0 0 auto"}}>
@@ -29,8 +31,8 @@ function EnjoyOnTV () {
               alt="tv"
               style={{flex: "0 0 auto",
               paddingRight:"4PX",
-              height:"400px",
-              width:"400px",
+              height:"300px",
+              width:"300px",
               paddingTop:"12px",
               paddingBottom:"12px", }}/>
     </div>

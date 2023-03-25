@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import React, {Component} from "react";
-import './Login.css';
+import './Homescreen.css';
 import Button from 'react-bootstrap/Button';
 import  Form  from 'react-bootstrap/Form';
 
@@ -14,9 +14,9 @@ function Login ()  {
         </div> */}
 
         <div className="intro">
-        <h1>Unlimited movies, TV shows, and more.</h1>
+        <h1>Unlimited movies, TV shows, and more.<br/> <br/></h1>
         <p>Watch anywhere. Cancel anytime.Ready to watch? <br/>
-            Enter your email to create or restart your membership.</p>
+            Enter your email to create or restart your membership.<br/></p>
         </div>
 
         

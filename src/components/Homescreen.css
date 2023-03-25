@@ -1,0 +1,121 @@
+.welcome{
+  padding-bottom: 48px;
+  padding-top: 0px;
+  border-color: black;
+  background-color: black;
+  object-fit: contain;
+  position:relative ;
+  color: white;}
+
+.login-btn{
+  text-align: right;
+  padding-top: 36px;
+  margin-right: 32px;
+}
+
+.intro{
+  text-align: center;
+  padding: 8px;
+  padding-top: 40px;
+}
+
+.submit-email{
+  justify-content: center;
+  
+}
+
+#input-email{
+  width: 256px;
+  height: 40px;
+  border-radius: 4px;
+  border-color: aqua;
+}
+#get-started-btn {
+  height: 40px;
+  border-radius: 4px;
+}
+.section2-h1 {
+    font-size: 32px;
+  }
+  
+  .section2-p {
+    font-size: 24px;
+  }
+
+  .astr {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .fam{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .netflix_logo{
+    position : fixed;
+    left:20px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .avatar{
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+  }
+
+  .nav{
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    padding-bottom: 60px;
+  }
+
+  .banner{ 
+    position: relative;
+    height: 440px;
+    object-fit: contain;
+  }
+  .banner__contents{
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 0;
+    padding-left: 36px;
+    object-fit: contain;
+  }
+  .banner__title{
+    font-family: Segos UI;
+    font-weight: 100;
+    font-style: regular;
+    color: white;
+    letter-spacing: 3px;
+  }
+  .banner__description{
+    font-family: Segos UI;
+    font-size:medium;
+    padding-top: 3px;
+    line-height: normal;
+    font-style: regular;
+    color: white;
+    letter-spacing: 3px;
+  }
+
+  .banner__button{
+    letter-spacing: 3px;
+    margin-right: 16px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+  }
+  
