@@ -16,7 +16,7 @@
 .intro{
   text-align: center;
   padding: 8px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .submit-email{
@@ -84,8 +84,8 @@
 
   .banner{ 
     position: relative;
-    height: 440px;
-    object-fit: contain;
+    height: 500px;
+    object-fit:contain;
   }
   .banner__contents{
     position: absolute;
@@ -106,6 +106,7 @@
     font-family: Segos UI;
     font-size:medium;
     padding-top: 3px;
+    margin-bottom: 32px;
     line-height: normal;
     font-style: regular;
     color: white;
@@ -118,4 +119,6 @@
     margin-bottom: 5px;
     border-radius: 12px;
   }
+
+  
   
