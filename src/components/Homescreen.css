@@ -57,7 +57,7 @@
   }
 
   .netflix_logo{
-    position : fixed;
+    position : relative;
     left:20px;
     top: 0.8% ;
     height: 72px;
@@ -67,11 +67,11 @@
 
   .avatar{
     cursor: pointer;
-    position: fixed;
+    position: relative;
     right: 20px;
     width: 30px;
     height: 30px;
-    top: 4%;
+    top: 16px;
   }
 
   .nav{
@@ -126,12 +126,19 @@
   .row{
     color : white;
     margin-left: 20px;
+    margin-top: 12px;
   }
   .row__posters{
     display: flex;
     overflow-x: hidden ;
     overflow-y: scroll;
     padding: 20px;
+    background-color: black;
+  }
+  .row__poster{
+    max-height: 100px;
+    position: relative;
+    background-color: black;
   }
 
 /* .banner--fadeBottom{

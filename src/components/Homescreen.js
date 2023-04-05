@@ -11,7 +11,12 @@ import requests from '../Requests.js'
 function Homescreen ()  {
     return (
 
-      <div>
+      <div
+      style={{
+        backgroundColor:'black'
+      }
+      }
+      >
         <Nav/>
         <Banner/>
         <Row title="Netflix Originals" 
