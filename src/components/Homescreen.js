@@ -5,12 +5,26 @@ import Banner from './Banner.js'
 import Section2 from '../components/Section2.js'
 import Section3 from '../components/Section3.js'
 import Section4 from '../components/Section4.js'
-export default class Homescreen extends Component {
-  render() {
+import Row from '../components/Row.js'
+import requests from '../Requests.js'
+
+function Homescreen ()  {
     return (
+
       <div>
         <Nav/>
         <Banner/>
+        <Row title="Netflix Originals" 
+          fetchUrl={requests.fetchNetflixOriginals} 
+          isLargeRow/>
+        <Row title="Trending Now" 
+          fetchUrl={requests.fetchTrending} />
+        <Row title="Top Rated"
+          fetchUrl={requests.fetchTopRated} />
+        <Row title="Action Movies"
+          fetchUrl={requests.fetchActionMovies} />
+        <Row title="Comedy Movies"
+          fetchUrl={requests.fetchComedyMovies} />
         <Login/>
         <Section2/>
         <Section3/>
@@ -19,4 +33,5 @@ export default class Homescreen extends Component {
       </div>
     )
   }
-}
+
+export default Homescreen;

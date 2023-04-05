@@ -59,6 +59,8 @@
   .netflix_logo{
     position : fixed;
     left:20px;
+    top: 0.8% ;
+    height: 72px;
     width: 150px;
     cursor: pointer;
   }
@@ -67,9 +69,9 @@
     cursor: pointer;
     position: fixed;
     right: 20px;
-    width: 40px;
-    height: 40px;
-    top: 20px;
+    width: 30px;
+    height: 30px;
+    top: 4%;
   }
 
   .nav{
@@ -86,10 +88,12 @@
     position: relative;
     height: 500px;
     object-fit:contain;
+    overflow-y:auto;
+    overflow-x: auto;
   }
   .banner__contents{
     position: absolute;
-    width: 40%;
+    width: 32%;
     bottom: 0;
     left: 0;
     padding-left: 36px;
@@ -106,7 +110,7 @@
     font-family: Segos UI;
     font-size:medium;
     padding-top: 3px;
-    margin-bottom: 32px;
+    margin-bottom: 40%;
     line-height: normal;
     font-style: regular;
     color: white;
@@ -116,9 +120,32 @@
   .banner__button{
     letter-spacing: 3px;
     margin-right: 16px;
-    margin-bottom: 5px;
     border-radius: 12px;
   }
 
+  .row{
+    color : white;
+    margin-left: 20px;
+  }
+  .row__posters{
+    display: flex;
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    padding: 20px;
+  }
+
+/* .banner--fadeBottom{
+  height: 7.4rem ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(
+    188deg,
+
+    rgba(37, 37, 37, 0.61)60%,
+    #111
+  );
+} */
   
   
